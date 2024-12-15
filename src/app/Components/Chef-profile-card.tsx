@@ -129,7 +129,7 @@ export default function ChefProfileCard() {
     <Services24x7 />
     <br/>
     <br/>
-    <BlogPostCard title={""} description={""} date={""} commentCount={0} imageUrl={""} slug={""} fill={""}/>
+    <BlogPostCard date={""} commentCount={0} slug={""} fill={""}/>
     <br/>
     <br/>
     <FreshFoodIcon />

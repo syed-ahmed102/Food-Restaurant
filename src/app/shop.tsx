@@ -1,5 +1,4 @@
 import Header from './Components/Header';
-import Footer from './Components/Footer';
 import ChefProfileCard from './Components/Chef-profile-card';
 import Newsletter from './Components/NewsLetter';
 
@@ -25,7 +24,7 @@ const Shop = () => {
       <main>
         <h1>Our Shop</h1>
         <div className="product-grid">
-          {products.map((product, index) => (
+          {products.map(() => (
             <ChefProfileCard/>
           ))}
         </div>

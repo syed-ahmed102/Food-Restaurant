@@ -25,10 +25,10 @@ const BlogCard: React.FC<BlogCardProps> = ({
       <Image
         src='/pic7.png'
         alt='image'
-        fill
         className="object-cover"
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-      />
+        width={500}
+        height={300}  />
     </div>
     
     <div className="p-4">
@@ -44,9 +44,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
       
       <Link 
         href={`/blog/${slug}`}
-        className="inline-flex items-center text-blue-600 hover:text-blue-700"
-      >
-        Read more
+        className="inline-flex items-center text-blue-600 hover:text-blue-700">Read more
         <svg 
           className="w-4 h-4 ml-1" 
           viewBox="0 0 24 24" 

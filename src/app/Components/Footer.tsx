@@ -14,7 +14,7 @@ export default function Footer() {
             <h2 className="text-2xl font-bold mb-2">
               <span className="text-orange-500">S</span>till You Need Our Support ?
             </h2>
-            <p className="text-gray-400">Don't wait make a smart & logical quote here. Its pretty easy.</p>
+            <p className="text-gray-400">Don not wait make a smart & logical quote here. Its pretty easy.</p>
           </div>
           <div className="flex w-full md:w-auto gap-2">
             <Input 

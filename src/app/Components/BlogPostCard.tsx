@@ -4,27 +4,24 @@ import Link from 'next/link';
 import { Calendar, MessageSquare } from 'lucide-react';
 
 interface BlogPostCardProps {
-  title: string;
-  description: string;
   date: string;
   commentCount: number;
-  imageUrl: string;
   slug: string;
   className?: string;
-  fill: string
+  fill: string;
 }
 
-const BlogPostCard: React.FC<BlogPostCardProps> = ({title, description, date, commentCount, className, imageUrl, slug}) => {
+const BlogPostCard: React.FC<BlogPostCardProps> = ({ date, commentCount, className, slug}) => {
   return (
     <article className={`max-w-sm rounded-lg overflow-hidden bg-white shadow-md ${className}`}>
       <div className="relative h-48 w-full">
         <Image
           src='/pic6.png'
           alt='image'
-          fill
           className="object-cover"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
+          width={500}
+        height={300}/>
       </div>
       
       <div className="p-4">
