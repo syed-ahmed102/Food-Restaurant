@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { User } from 'lucide-react';
 
 interface BlogCardProps {
   title: string;

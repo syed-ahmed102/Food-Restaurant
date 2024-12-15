@@ -24,13 +24,12 @@ const Shop = () => {
       <main>
         <h1>Our Shop</h1>
         <div className="product-grid">
-          {products.map(() => (
-            <ChefProfileCard/>
+          {products.map((product, index) => (
+            <ChefProfileCard key={index}/>
           ))}
         </div>
         <Newsletter />
       </main>
-      
     </>
   );
 };
