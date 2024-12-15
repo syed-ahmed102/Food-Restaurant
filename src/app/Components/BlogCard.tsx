@@ -15,12 +15,7 @@ interface BlogCardProps {
 }
 
 const BlogCard: React.FC<BlogCardProps> = ({
-  title,
-  description,
   date,
-  author,
-  imageUrl,
-  category,
   slug,
   className = ''
 }) => {
