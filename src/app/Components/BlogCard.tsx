@@ -20,14 +20,14 @@ const BlogCard: React.FC<BlogCardProps> = ({
 }) => {
   return (
     <article className={`max-w-sm rounded-lg overflow-hidden bg-white shadow-md ${className}`}>
-    <div className="relative h-48 w-full">
+    <div className="relative h-58 w-full">
       <Image
         src='/pic7.png'
         alt='image'
         className="object-cover"
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        width={500}
-        height={300}  />
+        width={400}
+        height={200}  />
     </div>
     
     <div className="p-4">

@@ -10,19 +10,19 @@ const Header = () => {
           backgroundImage: "url('/pic1.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '340px', // Adjust as needed
+          height: '340px',
         }}
         className="relative text-white"
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
         {/* Navigation Bar */}
         <nav className="flex justify-between items-center px-8 py-4 relative z-10">
           <div className="text-xl font-bold">
             <span className="text-orange-500">Food</span>tuck
           </div>
-          <ul className="flex space-x-6">
+          <ul className="hidden md:flex space-x-6">
             <li className="hover:text-orange-500">
               <a href="#">Home</a>
             </li>
@@ -36,13 +36,13 @@ const Header = () => {
               <a href="#">Pages</a>
             </li>
             <li className="hover:text-orange-500">
-              <a href="#">About</a>
+              <a href="About">About</a>
             </li>
             <li className="hover:text-orange-500">
               <a href="#">Shop</a>
             </li>
             <li className="hover:text-orange-500">
-              <a href="#">Contact</a>
+              <a href="contact">Contact</a>
             </li>
           </ul>
           <div className="flex space-x-4">
@@ -61,11 +61,11 @@ const Header = () => {
         </div>
       </header>
 
-      <br/>
-      <br/>
+      <br />
+      <br />
 
       {/* Social Media Icons Outside Header */}
-      <div className="flex justify-start space-x-4 mt-4">
+      <div className="flex justify-start space-x-4 mt-4 px-8">
         <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
           <FaPinterest size={24} className="text-black hover:text-gray-600" />
         </a>

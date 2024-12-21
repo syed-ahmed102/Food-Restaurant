@@ -12,7 +12,9 @@ import ReadMoreButton from "./button"
 
 export default function ChefProfileCard() {
   return (
-    <><Card className="max-w-sm overflow-hidden">
+    <>
+    <div></div>
+    <Card className="max-w-sm overflow-hidden">
       <div className="relative aspect-square overflow-hidden">
         <Image
           alt="Chef preparing food in kitchen"
@@ -142,6 +144,31 @@ export default function ChefProfileCard() {
     <br/>
     <br/>
     <ReadMoreButton />
+    <br/>
+    <br/>
+    
+      <CardHeader>
+        <h3 className="text-xl text-start text-bg #FF9F0D">Raw Scollops From Erquy   ___________________  32$</h3>
+        <p className="text-md text-muted-foreground text-start">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Varius sed pharetra dictum neque massa congue</p>
+      </CardHeader>
+    <br/>
+    <br/>
+    <BlogCard title={""} description={""} date={""} author={""} imageUrl={""} category={""} slug={""} />
+        <br/>
+        <br/>
+    <ReadMoreButton/>
+    <br/>
+    <br/>
+    <CoffeeBanner/>
+    <br/>
+    <br/>
+    <BlogPostCard date={""} commentCount={0} slug={""} fill={""}/>
+
+
+
+
         </>
 
     

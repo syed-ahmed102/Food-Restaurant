@@ -14,7 +14,7 @@ interface BlogPostCardProps {
 const BlogPostCard: React.FC<BlogPostCardProps> = ({ date, commentCount, className, slug}) => {
   return (
     <article className={`max-w-sm rounded-lg overflow-hidden bg-white shadow-md ${className}`}>
-      <div className="relative h-48 w-full">
+      <div className="relative h-58 w-full">
         <Image
           src='/pic6.png'
           alt='image'

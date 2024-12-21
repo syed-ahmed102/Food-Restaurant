@@ -2,6 +2,7 @@ import Header from './Components/Header';
 import ChefProfileCard from './Components/Chef-profile-card';
 import Footer from './Components/Footer';
 
+
 const Home = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home = () => {
       <br/>
       <br/>
       <Footer />
+      
     
       
       
